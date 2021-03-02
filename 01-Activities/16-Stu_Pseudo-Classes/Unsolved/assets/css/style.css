@@ -22,8 +22,13 @@ h2 {
   font-size: 250%;
 }
 
+h3 {
+  margin: 2% 0;
+  font-size: 200%;
+}
+
 nav ul {
-  display: flex;
+display: flex;
   justify-content: space-between;
   min-width: 300px;
 }
@@ -45,6 +50,10 @@ main {
   margin: 2% auto;
 }
 
+ul .show-hide {
+  list-style: none;
+}
+
 section {
   flex: 1 1 0;
   padding-right: 5%;
@@ -63,6 +72,20 @@ article ul {
   margin-left: 5%;
   font-size: 110%;
   list-style: circle;
+  text-decoration: none;
+}
+
+.resources a {
+  color: rgb(122, 27, 27);
+  text-decoration: none;
+}
+
+.show-hide:hover .hide {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 aside {
