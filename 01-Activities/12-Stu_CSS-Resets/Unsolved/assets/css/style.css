@@ -43,7 +43,7 @@ main {
 
 section {
   flex: 1 1 0;
-  padding-right: 5%;
+  padding: 0 5% 0 2%;
 }
 
 article {
@@ -84,6 +84,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+  body {
+    margin: 1% 2%;
+  }
+  
   header, main {
     flex-direction: column;
   }
