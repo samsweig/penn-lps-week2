@@ -31,6 +31,8 @@ The following image demonstrates the web application's appearance:
 If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
 
 * What is Normalize.css and how does it affect different browsers?
+    Answer:
+    - Normalize.css is a CSS file you link in the head of your html file that will help your code perform consistantly across different browsers.
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

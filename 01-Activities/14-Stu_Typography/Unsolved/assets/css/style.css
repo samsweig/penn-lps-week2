@@ -1,5 +1,6 @@
 /* TODO: Set the font size and line height */
 body {
+  font-size: 16px;
   display: flex;
   flex-direction: column;
 }
@@ -13,16 +14,33 @@ header {
   color: #fff;
 }
 
-/* TODO: Change the heading size to 200%, give it a margin all around, and assign font family to serif */
+/* TODO: Change the heading size to 200%, give it a margin all around, 
+and assign font family to serif */
 h1 {
+  font-family: serif;
+  font-size: 200%;
+  margin: 2%;
+  text-shadow: 2px 2px 5px #b9c6ae;
 }
 
-/* TODO: Change the heading size to be slightly smaller than h1, give it a margin only on the top and bottom, and assign font family to serif */
+/* TODO: Change the heading size to be slightly smaller than h1, 
+give it a margin only on the top and bottom, and assign font family to serif */
 h2 {
+  font-family: serif;
+  font-size: 175%;
+  margin: 10px 0;
+  margin: 2%;
+  text-shadow: 2px 2px 5px gray;
 }
 
-/* TODO: Change header size to be slightly smaller than h2 and assign font family to serif */
+/* TODO: Change header size to be slightly smaller than h2 
+and assign font family to serif */
 h3 {
+  font-family: serif;
+  font-size: 150%;
+  margin: 2%;
+  text-shadow: 2px 2px 5px gray;
+
 }
 
 nav ul {
@@ -32,6 +50,9 @@ nav ul {
 }
 
 nav a {
+  font-size: 125%;
+  padding: 0 10px;
+  font-family: monospace;
   color: #b9c6ae;
   font-weight: bold;
   text-decoration: none;
@@ -55,10 +76,19 @@ article {
 
 /* TODO: Add a margin to the top and bottom of the paragraphs */
 article p {
+  font-family: monospace;
+  margin: 2%;
+  line-height: 1.5;
 }
 
 /* TODO: Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
-article ul {
+article ul li {
+  margin: 2%;
+  font-family: monospace;
+  text-indent: 50px;
+  list-style: square;
+  list-style-position: inside;
+  font-weight: bolder;
 }
 
 aside {
@@ -73,6 +103,7 @@ button {
 }
 
 footer {
+  font-family: monospace;
   display: flex;
   justify-content: center;
   padding: 2%;
